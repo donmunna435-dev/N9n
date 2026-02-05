@@ -18,7 +18,7 @@ declare global {
  * 5. Leave "Authorized redirect URIs" EMPTY (not needed for this popup flow).
  * 6. Copy the "Client ID" and paste it below.
  */
-const CLIENT_ID = 'YOUR_CLIENT_ID.apps.googleusercontent.com'; 
+const CLIENT_ID = '612545912090-klomt6jihng3hmhqiqnhopvbutk48osf.apps.googleusercontent.com'; 
 const SCOPES = 'https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/drive.readonly';
 
 let tokenClient: any = null;
